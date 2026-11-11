@@ -2,7 +2,7 @@
 
 An end-to-end data analytics project that analyzes Blinkit (India's Last Minute App) sales data using **SQL** for querying and **Power BI** for an interactive dashboard.
 
-![Dashboard Preview](dashboard/blinkit_dashboard_preview.png)
+![Dashboard Preview](blinkit_dashboard_preview.png)
 
 ## 📌 Project Overview
 This project explores sales performance across items, outlets, locations and fat content to uncover trends that can support better business decisions.
