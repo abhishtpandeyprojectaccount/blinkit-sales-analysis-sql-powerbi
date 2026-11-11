@@ -1,1 +1,1 @@
-# blinkit-sales-analysis-sql-powerbi
+# Blinkit-Sales-Analysis-Sql-Powerbi
