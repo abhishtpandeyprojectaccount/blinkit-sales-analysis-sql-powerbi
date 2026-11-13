@@ -16,7 +16,7 @@ This project explores sales performance across items, outlets, locations and fat
 ## 🛠️ Tools Used
 | Tool | Purpose |
 |------|---------|
-| SQL | Data cleaning and analysis |
+| SQL Server (SSMS) | Data cleaning and analysis |
 | Power BI | Dashboard and visualization |
 | Excel/CSV | Raw data source |
 | Power Query | (Optional For Data Cleaning)
@@ -53,12 +53,22 @@ This project explores sales performance across items, outlets, locations and fat
 - Slicers: Outlet Location Type, Outlet Size, Item Type
 - Charts: Fat Content, Fat by Outlet, Item Type, Outlet Establishment, Outlet Size, Outlet Location
 - Outlet Type table with conditional formatting
+## How to Use
 
-## ▶️ How to Use
-1. Clone the repository
-   `git clone https://github.com/<your-username>/blinkit-sales-analysis-sql-powerbi.git`
-2. Run the SQL files in the `sql/` folder in order (01 → 03)
-3. Open `powerbi/blinkit_sales_dashboard.pbix` in Power BI Desktop
+**Requirements:** [SQL database name, e.g. MySQL / SQL Server], [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only)
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/blinkit-sales-analysis-sql-powerbi.git
+   cd blinkit-sales-analysis-sql-powerbi
+   ```
+2. Load the dataset into your database [explain: import `data/blinkit_data.csv` as a table].
+3. Run the SQL files in the `sql/` folder in this order:
+   - `01_...sql` – [e.g. create table / data cleaning]
+   - `02_...sql` – [e.g. KPI queries]
+   - `03_...sql` – [e.g. analysis queries]
+4. Open `powerbi/blinkit_sales_dashboard.pbix` in Power BI Desktop.
+5. If Power BI shows a data source error, go to **Home → Transform data → Data source settings → Change Source**, point it to your database or data file, then click **Refresh**.
+   
 ## 👤 Author
 Abhisht Pandey
