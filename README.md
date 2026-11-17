@@ -46,7 +46,7 @@ This project explores sales performance across items, outlets, locations and fat
 - Data cleaning (standardizing Fat Content values, handling NULLs)
 - KPI calculations using aggregate functions
 - Grouped analysis by item type, outlet and location
-- Window functions / CTEs for deeper insights *(if used)*
+- Window functions / CTEs for deeper insights 
 
 ## 📈 Dashboard Features
 - KPI cards with toggle buttons (Total Sales, Avg Sales, No. of Items, Avg Rating)
